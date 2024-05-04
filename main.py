@@ -7,9 +7,9 @@ pg.mixer.init()
 pg.init()
 
 # Load Music
-# pg.mixer.music.load("audio/music2.mp3")
-# pg.mixer.music.set_volume(0.1)
-# pg.mixer.music.play(loops=-1, start=0.0)
+pg.mixer.music.load("audio/music2.mp3")
+pg.mixer.music.set_volume(0.1)
+pg.mixer.music.play(loops=-1, start=0.0)
 jump_fx, shot_fx, grenade_fx = pg.mixer.Sound("audio/jump.wav"), pg.mixer.Sound("audio/shot.wav"), pg.mixer.Sound(
     "audio/grenade.wav")
 jump_fx.set_volume(0.90)
